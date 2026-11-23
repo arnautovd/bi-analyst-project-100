@@ -22,13 +22,14 @@ cd bi-analyst-project-100
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-cp .env.example .env   # укажите ссылки на выгрузки данных
+cp .env.example .env
 ```
 
 Переменные окружения (`.env`):
 
-- `VISITS_URL` — ссылка на выгрузку визитов (CSV)
-- `REGISTRATIONS_URL` — ссылка на выгрузку регистраций (CSV)
+- `API_URL` — адрес API с данными (по умолчанию `https://data-charts-api.hexlet.app`)
+- `DATE_BEGIN` — начало периода, `YYYY-MM-DD` (включительно)
+- `DATE_END` — конец периода, `YYYY-MM-DD` (не включительно)
 
 ## Использование
 
