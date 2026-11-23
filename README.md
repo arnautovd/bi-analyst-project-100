@@ -46,7 +46,7 @@ jupyter execute charts_project.ipynb
 - `conversion.json` — визиты, регистрации и конверсия по дням и платформам
 - `ads.json` — визиты, регистрации и затраты на рекламу по дням
 - `charts/` — графики в PNG
-- [`PRESENTATION.md`](PRESENTATION.md) — презентация с выводами и рекомендациями
+- [`presentation.pdf`](presentation.pdf) — презентация с выводами и рекомендациями (исходник: [`PRESENTATION.md`](PRESENTATION.md))
 
 ---
 
