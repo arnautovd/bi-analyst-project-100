@@ -42,6 +42,12 @@ jupyter execute analytics.ipynb
 
 Интерактивная работа: `jupyter lab`.
 
+Результаты:
+
+- `conversion.json` — визиты, регистрации и конверсия по дням и платформам
+- `ads.json` — визиты, регистрации и затраты на рекламу по дням
+- `charts/` — графики в PNG
+
 ---
 
 <details>
