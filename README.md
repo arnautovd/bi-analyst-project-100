@@ -30,14 +30,13 @@ cp .env.example .env
 - `API_URL` — адрес API с данными (по умолчанию `https://data-charts-api.hexlet.app`)
 - `DATE_BEGIN` — начало периода, `YYYY-MM-DD` (включительно)
 - `DATE_END` — конец периода, `YYYY-MM-DD` (не включительно)
-- `ADS_URL` — ссылка на CSV с рекламными кампаниями
 
 ## Использование
 
 Выполнить ноутбук целиком одной командой:
 
 ```bash
-jupyter execute analytics.ipynb
+jupyter execute charts_project.ipynb
 ```
 
 Интерактивная работа: `jupyter lab`.
